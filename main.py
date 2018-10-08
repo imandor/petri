@@ -55,7 +55,7 @@ class mapping:
         Y /= np.max(Y)
         Y *= 255
         Y *= 255
-        ax.imshow(Y, cmap="gray")
+        ax.imshow(Y, cmap="gray",  interpolation='none')
         plt.show()
 
 
